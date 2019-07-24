@@ -1,0 +1,189 @@
+BODY {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+INPUT {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+} 
+DIV {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+FORM {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+TEXTAREA {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+CENTER {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+OPTION {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+PRE {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+P {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+BLOCKQUOTE {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+BR {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 140%
+}
+.input {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-LEFT-COLOR: silver; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: silver; BORDER-TOP-COLOR: silver; LINE-HEIGHT: 100%; BORDER-RIGHT-WIDTH: 0px; BORDER-RIGHT-COLOR: silver
+}
+.textarea {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; FONT-SIZE: 9pt; BACKGROUND: white; OVERFLOW: auto; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; FONT-FAMILY: µ¸¿ò,helvetica,tahoma
+}
+.news {
+	COLOR: #666666; FONT-FAMILY: µ¸¿ò,helvetica; fontsize: 9pt
+}
+.news A:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.news A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.news A:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.news A:hover {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.board_total_num {
+	FONT-SIZE: 9pt; COLOR: #111111; LINE-HEIGHT: 150%; FONT-FAMILY: µ¸¿ò,helvetica,tahoma
+}
+.board_total_num A:link {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_total_num A:visited {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_total_num A:active {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_total_num A:hover {
+	COLOR: #908f5f; TEXT-DECORATION: none
+}
+.board_title {
+	COLOR: #111111; FONT-FAMILY: µ¸¿ò,helvetica; fontsize: 9pt
+}
+.board_title A:link {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_title A:visited {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_title A:active {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_title A:hover {
+	COLOR: #908f5f; TEXT-DECORATION: none
+}
+.board_writer_general {
+	COLOR: #111111; FONT-FAMILY: µ¸¿ò,helvetica; fontsize: 9pt
+}
+.board_writer_general A:link {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_writer_general A:visited {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_writer_general A:active {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_writer_general A:hover {
+	COLOR: #908f5f; TEXT-DECORATION: none
+}
+.board_date {
+	COLOR: #111111; FONT-FAMILY: Tahoma; font-ize: 8pt
+}
+.board_date A:link {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_date A:visited {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_date A:active {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_date A:hover {
+	COLOR: #908f5f; TEXT-DECORATION: none
+}
+.board_num {
+	COLOR: #111111; FONT-FAMILY: Tahoma; fontsize: 8pt
+}
+.board_num A:link {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_num A:visited {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_num A:active {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_num A:hover {
+	COLOR: #908f5f; TEXT-DECORATION: none
+}
+.board_reply {
+	FONT-SIZE: 9pt; COLOR: #686868; FONT-FAMILY: µ¸¿ò,helvetica; bgcolor: F3F3F3
+}
+.board_reply A:link {
+	COLOR: #686868; TEXT-DECORATION: none
+}
+.board_reply A:visited {
+	COLOR: #686868; TEXT-DECORATION: none
+}
+.board_reply A:active {
+	COLOR: #111111; TEXT-DECORATION: none
+}
+.board_reply A:hover {
+	COLOR: #908f5f; TEXT-DECORATION: none
+}
+.cell_dot {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 9pt; BACKGROUND: url(css_img/dot.gif) repeat-x 50% bottom; BORDER-LEFT: 0px; LINE-HEIGHT: 100%; BORDER-BOTTOM: 0px
+}
+.cell_dot2 {
+	BACKGROUND: url(css_img/dot.gif); HEIGHT: 1px
+}
+.cell_line {
+	HEIGHT: 0px
+}
+.button_font {
+	FONT-SIZE: 9pt; FONT-FAMILY: Verdana
+}
+.table_text { 
+	FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-FAMILY: "µ¸¿ò", "µ¸¿òÃ¼"
+}
+.table_text636363 {
+	FONT-SIZE: 12px; COLOR: #636363; LINE-HEIGHT: 14px; FONT-FAMILY: "µ¸¿ò", "µ¸¿òÃ¼"
+}
+.table_text5D5D5D {
+	FONT-SIZE: 12px; COLOR: #5d5d5d; LINE-HEIGHT: 14px; FONT-FAMILY: "µ¸¿ò", "µ¸¿òÃ¼"
+}
+.table_textFCF996 {
+	FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 14px; FONT-FAMILY: "µ¸¿ò", "µ¸¿òÃ¼"
+}
+.table_textbigf {
+	FONT-SIZE: 14px; LINE-HEIGHT: 16px; FONT-FAMILY: "µ¸¿ò", "µ¸¿òÃ¼"
+}

@@ -1,0 +1,90 @@
+@charset "euc-kr";
+
+/* --- Reset --- */
+
+html, body {width:100%; height:100%;  }
+
+* {margin:0; padding:0; }
+body, div, h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, button {font-family:arial,dotum,Helvetica,AppleGothic,tahoma,verdana, sans-serif; font-size:12px; background:transparent; line-height:1.6em;}
+img, fieldset, button, iframe {border:0;}
+menu,ul,ol,li {list-style:none;}
+em,address,cite,code,var {font-style:normal; font-weight:normal;}
+table {border-collapse:collapse; border-spacing:0; width:100%;}
+button {cursor:pointer; overflow:hidden;}
+button span {display:block; text-indent:-9999px;}
+hr {display:none;}
+legend,caption {display:none;}
+a {text-decoration:none; color:#333;}
+a:hover, a:active, a:focus {text-decoration:underline; color:#000;}
+body, .scrollstyle {
+    scrollbar-3dlight-color:#e7e8e2;
+    scrollbar-arrow-color:#ddd;
+    scrollbar-track-color:#e8e8e8;
+    scrollbar-darkshadow-color:#f6f6f6;
+    scrollbar-face-color:#fff;
+    scrollbar-highlight-color:#fff;
+    scrollbar-shadow-color:#cdcdc5;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, big, cite, code, del, dfn, em, font, img, ins, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {padding:0;margin:0;border:0 none}
+
+	/*  layout  */
+
+body { background:url(../images/common/bg13.jpg) repeat}
+
+.body-shadow {
+	background: url(../images/common/body-shadow.png) repeat-y center top;
+}
+#wrap{margin:0 auto;  width:930px; background:#fff; padding:0 20px ; position:relative}
+
+#header{ height:128px;background:url(../images/common/mainbg_header.gif) repeat-x;position:relative;overflow:hidden;}
+#header p.logo {position:absolute;left:20px;top:16px;}
+#header p.logo a {display:inline-block;padding:0px}
+
+#header .util {position:absolute;right:0px;top:40px}
+#header .util ul {display:inline-block;float:left;overflow:hidden;margin-top:3px}
+#header .util li {float:left}
+#header .util li a {display:inline-block;padding:1px 8px;margin-left:-1px;vertical-align:top;background:url('../images/common/top_util_line.gif') no-repeat 0 3px}
+
+#header .gnbset a {background:url('../images/common/bg_gnb.gif') no-repeat; display:block; overflow:hidden; text-indent:-9999px; height:39px;}
+
+#header #gnb {height:39px;width:910px; text-align:center; margin:0 auto; z-index:1;position:absolute;left:10px;top:66px;}
+#header #gnb li {float:left;}
+
+#header #gnb li.a1 a {background-position:0 0; width:129px;}
+#header #gnb li.a2 a {background-position:-129px 0; width:168px;}
+#header #gnb li.a3 a {background-position:-297px 0; width:168px;}
+#header #gnb li.a4 a {background-position:-465px 0; width:138px;}
+#header #gnb li.a5 a {background-position:-603px 0; width:168px;}
+#header #gnb li.a6 a {background-position:-771px 0; width:139px; }
+
+#header #gnb li.a1 a:hover, #header #gnb li.a1_on a {background-position:0 -49px; width:129px;}
+#header #gnb li.a2 a:hover, #header #gnb li.a2_on a {background-position:-129px -49px; width:168px;}
+#header #gnb li.a3 a:hover, #header #gnb li.a3_on a {background-position:-297px -49px; width:168px;}
+#header #gnb li.a4 a:hover, #header #gnb li.a4_on a {background-position:-465px -49px; width:138px;}
+#header #gnb li.a5 a:hover, #header #gnb li.a5_on a {background-position:-603px -49px; width:168px;}
+#header #gnb li.a6 a:hover, #header #gnb li.a6_on a {background-position:-771px -49px; width:139px;}
+
+.slider-wrapper{height:220px; position:relative}
+.slider-wrapper .slider{ width:675px;height:220px;float:left}
+.slider-wrapper .partners{float:right}
+.customers{ height:68px; overflow:hidden}
+.customers .list{float:left; width:100%}
+.customers .list dt{float:left; margin-right:5px;margin-top:7px;}
+.customers .list dd{ }
+.customers .list ul{ width:100%; margin-top:13px; }
+.customers .list li{float:left; background:url(../images/common/customers_line.gif) no-repeat right center; padding:0 5px}
+
+/* --------- FEATURE BOXES --------- */
+.content{width:100%; position: relative; overflow:hidden ; padding-bottom:25px; padding-top:15px}
+.content .box{ position:relative; background:#0C0}
+.feature-box {	text-align:left;width:275px;height:320px; float:left; padding-right:15px ; padding-left:10px	}
+.feature-box h2 {font-size: 24px;margin-bottom: 10px;font-family: "Lucida Grande", Lucida, Verdana, sans-serif;}
+.feature-box h5{font-size:14px;color:#333;font-family:Calibri,Arial,Helvetica,AppleGothic,sans-serif; line-height: 1.3em;margin-bottom: 10px;}
+.feature-box span {  font-weight:bold; margin-top:20px; position:absolute; background:url(../images/ico/more.gif) no-repeat 0 5px; padding-left:16px; font-family:Calibri,Arial,Helvetica,AppleGothic,sans-serif;  font-size:14px }
+.feature-box p{font-size: 12px; color:#666; font-family:Calibri,Arial,Helvetica,AppleGothic,sans-serif; line-height: 1.5em;}
+.feature-box span a{color:#5ca924; text-decoration:underline}
+.feature-icon{ position:absolute; bottom:10px; width:280px; text-align:right }
+.column{ background:#fff url(../images/common/column_line.gif) repeat-y right top; margin-right:15px}
+#footer{width:988px;margin:0 auto; background:url(../images/common/footer_shadow.png) no-repeat; text-align:right }
+#footer .copyright { padding:12px 12px 0 0 }

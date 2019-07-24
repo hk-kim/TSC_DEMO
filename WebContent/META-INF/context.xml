@@ -1,0 +1,15 @@
+<Context path="/TSCAN" docBase="www">
+          <Resource name="jdbc/ORCL"
+                    auth="Container"
+                    type="javax.sql.DataSource"
+                    driverClassName="oracle.jdbc.OracleDriver"
+                    url="jdbc:oracle:thin:@localhost:1521:ORCL"
+                    username="TSCAN"
+                    password="TSCAN"
+                    maxActive="20"
+                    maxIdle="10"
+                    maxWait="3000"></Resource>
+          <ResourceLink type="javax.sql.DataSource"
+                      name="jdbc/ORCL"
+                      global="jdbc/ORCL"/>
+</Context>
